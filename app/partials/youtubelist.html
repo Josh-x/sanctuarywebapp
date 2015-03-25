@@ -1,8 +1,18 @@
+<script>
+var dicks = "muh dick";
+console.log(dicks);
+</script>
 <div class="row">
   <div class="col-md-12">
     <ul>
       <li ng-repeat="result in results">
         {{result.title.$t}}
+        <br />
+        {{result.media$group.media$description.$t}}
+        <br />
+        <!-- {{result.media$group.media$player[0].url}} -->
+        <iframe id="ytplayer" type="text/html" width: "640" height: "390" src="http://www.youtube.com/embed/O4Cja2cj79Y"/>
+        <br />
       </li>
     </ul>
   </div>
