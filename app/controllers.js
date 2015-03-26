@@ -3,7 +3,7 @@ var SanctuaryControllers = angular.module('SanctuaryControllers', []);
 SanctuaryControllers
   .controller('YoutubeListController',
     ['$scope', '$http', '$sce', function($scope, $http, $sce) {
-      $scope.feedurl = "http://gdata.youtube.com/feeds/users/enigmaticheart666/uploads?alt=json-in-script&callback=JSON_CALLBACK";
+      $scope.feedurl = "http://gdata.youtube.com/feeds/users/UCj7Gf071ORhdVrrVUH9ObdA/uploads?alt=json-in-script&callback=JSON_CALLBACK";
       $http.jsonp($scope.feedurl).success(function(data) {
         $scope.results = data.feed.entry;
         $scope.resultLinks = new Array($scope.results.length);
