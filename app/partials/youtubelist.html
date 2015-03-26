@@ -1,15 +1,10 @@
 <div class="row">
   <div class="col-md-12">
-    <ul style="list-style-type: none;">
-      <li ng-repeat="result in results">
-        {{result.title.$t}}
-        <br />
-        {{result.media$group.media$description.$t}}
-        <br />
-        <!-- {{result.media$group.media$player[0].url}} -->
+      <div class="col-md-6 col-sm-12" ng-repeat="result in results">
+        <h2>{{result.title.$t}}</h2>
+        <p>{{result.media$group.media$description.$t}}</p>
         <iframe id="ytplayer" type="text/html" width="640" height="480" ng-src="{{resultLinks[$index]}}"/>
         <br />
-      </li>
-    </ul>
+      </div>
   </div>
 </div>
