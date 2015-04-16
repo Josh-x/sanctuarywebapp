@@ -10,5 +10,20 @@ SanctuaryControllers
         $scope.results.forEach(function(result, index) {
           $scope.resultLinks[index] = $sce.trustAsResourceUrl(result.id.$t.replace("http://gdata.youtube.com/feeds/videos", "http://www.youtube.com/embed"));
         });
+        $scope.$on('test', function(ngRepeatFinishedEvent) {
+          $('.bxslider').bxSlider();
+        });
       });
-    }]);
+    }])
+    .directive('onFinishRender', function ($timeout) {
+      return {
+          restrict: 'A',
+          link: function (scope, element, attr) {
+              if (scope.$last === true) {
+                  $timeout(function () {
+                      scope.$emit(attr.onFinishRender);
+                  });
+              }
+          }
+      };
+    });
