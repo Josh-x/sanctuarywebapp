@@ -13,6 +13,7 @@
     "html5-boilerplate": "~4.3.0",
     "bootstrap": "*",
     "components-font-awesome": "*",
-    "jquery":"*"
+    "jquery": "*",
+    "bxslider": "*"
   }
 }
