@@ -22,7 +22,7 @@ body {
 }
 
 @media (max-width: 800px) {
-  .bx-slider {
+  iframe {
     width: 100%;
     height: auto;
   }
