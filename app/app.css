@@ -23,7 +23,7 @@ body {
 
 @media (max-width: 800px) {
   iframe {
-    width: 100%;
-    height: auto;
+    width: 640px;
+    height: 480px;
   }
 }
