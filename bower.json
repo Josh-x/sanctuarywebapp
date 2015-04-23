@@ -14,6 +14,7 @@
     "bootstrap": "*",
     "components-font-awesome": "*",
     "jquery": "*",
-    "bxslider": "*"
+    "bxslider": "*",
+    "fitvids": "~1.1.0"
   }
 }
