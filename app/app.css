@@ -20,6 +20,8 @@ iframe {
 
 #video-slider {
   width: 800px;
+  left: 20%;
+  right: 20%;
 }
 
 .bxslider {
