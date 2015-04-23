@@ -12,8 +12,8 @@ SanctuaryControllers
         }
         $scope.$on('test', function(ngRepeatFinishedEvent) {
           $('.bxslider').bxSlider({
-            video: true;
-            useCSS: false;
+            video: true,
+            useCSS: false
           });
         });
       });
