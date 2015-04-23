@@ -1,3 +1,3 @@
 <ul class="bxslider" id="video-slider">
-  <li ng-repeat="result in results | limitTo:5" on-finish-render="test" class="video-slide"><iframe id="ytplayer" type="text/html" width="800" height="600" ng-src="{{resultLinks[$index]}}"/></li>
+  <li ng-repeat="result in results | limitTo:5" on-finish-render="test" class="video-slide"><iframe id="ytplayer" type="text/html" ng-src="{{resultLinks[$index]}}" /></li>
 </ul>

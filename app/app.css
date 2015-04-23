@@ -11,6 +11,12 @@ body {
   margin-right: 20%;
 }
 
+.video-slide {
+  width: 800px;
+  height: 600px;
+  float: none;
+}
+
 .bxslider {
   text-align: center;
   left: 0px;
