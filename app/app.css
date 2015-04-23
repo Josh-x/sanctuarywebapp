@@ -12,7 +12,7 @@ body {
 }
 
 .bxslider {
-  width: 800px;
+  width: 850px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -24,8 +24,12 @@ body {
     margin-left: 0%;
     margin-right: 0%;
   }
-  iframe, .bxslider {
+  iframe {
     width: 640px;
+    height: 480px;
+  }
+  .bxslider {
+    width: 690px;
     height: 480px;
   }
 }
