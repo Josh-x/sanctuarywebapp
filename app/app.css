@@ -18,6 +18,12 @@ iframe {
   float: none;
 }
 
+#video-slider {
+  width: 800px;
+  left: 0px;
+  right: 0px;
+}
+
 .bxslider {
   text-align: center;
   width: 800px;
