@@ -15,6 +15,7 @@ SanctuaryControllers
             video: true,
             useCSS: false
           });
+          $('.bxslider').fitVids();
         });
       });
     }])
