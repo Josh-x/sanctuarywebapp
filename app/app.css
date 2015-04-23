@@ -17,11 +17,7 @@ body {
   margin-right: 20%;
 }
 
-.video-slide {
-  width: 850px;
-}
-
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   iframe {
     width: 640px;
     height: 480px;
