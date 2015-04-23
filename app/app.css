@@ -20,3 +20,10 @@ body {
 .video-slide {
   width: 850px;
 }
+
+@media (max-width: 800px) {
+  .bx-slider {
+    width: 100%;
+    height: auto;
+  }
+}
