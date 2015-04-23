@@ -5,12 +5,6 @@ body {
   margin-right: 10%;
 }
 
-#video-slider {
-  text-align: center;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 #col-content {
   text-align: center;
   margin-left: 20%;
@@ -22,6 +16,14 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #col-content {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   iframe, .bxslider {
     width: 640px;
     height: 480px;
