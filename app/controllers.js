@@ -11,8 +11,8 @@ SanctuaryControllers
           $scope.resultLinks[i-1] = $sce.trustAsResourceUrl($scope.results[i].id.$t.replace("http://gdata.youtube.com/feeds/videos", "http://www.youtube.com/embed"));
         }
         $scope.$on('test', function(ngRepeatFinishedEvent) {
-          $('.bxslider').bxSlider();
           $('.bxslider').fitVids();
+          $('.bxslider').bxSlider();
         });
       });
     }])
