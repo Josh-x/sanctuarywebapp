@@ -11,9 +11,12 @@ body {
   margin-right: 20%;
 }
 
-.video-slide {
+iframe {
   width: 800px;
   height: 600px;
+}
+
+.video-slide {
   float: none;
 }
 
