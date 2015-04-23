@@ -5,6 +5,18 @@ body {
   margin-right: 10%;
 }
 
-#main-video, #main-jumbo, #old-video {
+#video-slider {
   text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#col-content {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.video-slide {
+  width: 850px;
 }
