@@ -16,8 +16,7 @@
         <!-- Slides Container -->
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 356px; overflow: hidden;">
             <div ng-repeat="result in results | limitTo:5" on-finish-render="test">
-                <iframe u="image" id="ytplayer" type="text/html" ng-src="{{resultLinks[$index]}}" />
-                <iframe u="thumb" id="ytplayer" type="text/html" ng-src="{{resultLinks[$index]}}" />
+                <iframe id="ytplayer" type="text/html" ng-src="{{resultLinks[$index]}}" />
             </div>
         </div>
         <div u="thumbnavigator" class="jssort01" style="left: 0px; bottom: 0px;">
