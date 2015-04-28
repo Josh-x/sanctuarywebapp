@@ -1,8 +1,8 @@
-<div class="slides-container" enable-jssor jssor-options="scope-object-variable" jssor-trigger='true'>
+<div class="slides-container" enable-jssor jssor-options="sliderOptions" jssor-trigger="true">
     <div u="slides" ng-repeat="result in results | limitTo:5">
         <div>
           <iframe u="image" pHandler="ytiframe" pHideControls="0" width="640" height="480" style="z-index: 0;" ng-src="{{resultLinks[$index]}}" frameborder="0" scrolling="no"></iframe>
-          <img u="thumb" ng-src="{{resultThumbs[$index]}}" alt="Video Thumbnail" />
+          <img u="thumb" src="{{resultThumbs[$index]}}" alt="Video Thumbnail" />
         </div>
     </div>
     <!-- Other slider configuration UI definition here -->
