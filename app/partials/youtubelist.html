@@ -7,7 +7,7 @@
           overflow: hidden;">
           <div>
               <div ng-repeat="result in results | limitTo:5" on-finish-render="test" u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
-                  <iframe pHandler="ytiframe" pHideControls="0" width="640" height="390" style="z-index: 0;" ng-url="{{resultLinks[$index]}}" frameborder="0" scrolling="no"></iframe>
+                  <iframe pHandler="ytiframe" pHideControls="0" width="640" height="390" style="z-index: 0;" ng-src="{{resultLinks[$index]}}" frameborder="0" scrolling="no"></iframe>
               </div>
           </div>
       </div>
