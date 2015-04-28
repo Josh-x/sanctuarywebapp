@@ -7,17 +7,7 @@
           overflow: hidden;">
           <div>
               <div ng-repeat="result in results | limitTo:5" on-finish-render="test" u="player" style="position: relative; top: 0px; left: 0px; width: 640px; height: 390px; overflow: hidden;">
-                  <!-- iframe in ebay page is not allowed, youtube iframe video is not supported for ebay listing -->
                   <iframe pHandler="ytiframe" pHideControls="0" width="640" height="390" style="z-index: 0;" ng-url="{{resultLinks[$index]}}" frameborder="0" scrolling="no"></iframe>
-                  <!-- close button begin (optional, can remove close button) -->
-                  <style>
-                      .closeButton { background-image: url(../img/close.png); }
-                      .closeButton:hover { background-position: -30px 0px; }
-                  </style>
-                  <div u="close" class="closeButton" style="position: absolute; top: 0px; right: 1px;
-                      width: 30px; height: 30px; background-color: #000; cursor: pointer; display: none; z-index: 2;">
-                  </div>
-                  <!-- close button end -->
               </div>
           </div>
       </div>
