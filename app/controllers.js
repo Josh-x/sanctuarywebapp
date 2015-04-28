@@ -27,7 +27,7 @@ SanctuaryControllers
                     $SpacingX: 10,                   //[Optional] Horizontal space between each item in pixel, default value is 0
                     $SpacingY: 0,                   //[Optional] Vertical space between each item in pixel, default value is 0
                     $Orientation: 1                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
-                }
+                };
             var jssor_slider1 = new $JssorSlider$("slider1_container", options);
             //responsive code begin
             //you can remove responsive code if you don't want the slider scales while window resizes
