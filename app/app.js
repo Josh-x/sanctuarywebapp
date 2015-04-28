@@ -1,6 +1,7 @@
 var SanctuaryApp = angular.module('SanctuaryApp', [
   'ngRoute',
-  'SanctuaryControllers'
+  'SanctuaryControllers',
+  'dang-jssor'
 ]);
 
 SanctuaryApp.config(['$routeProvider',
