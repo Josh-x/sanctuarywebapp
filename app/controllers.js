@@ -49,7 +49,7 @@ SanctuaryControllers
             $JssorPlayer$.$FetchPlayers(document.body);
         });*/
       });
-    })
+    }])
     .directive('onFinishRender', function ($timeout) {
       return {
           restrict: 'A',
