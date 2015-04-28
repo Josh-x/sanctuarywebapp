@@ -46,8 +46,8 @@ SanctuaryControllers
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
             //fetch and initialize youtube players
-            $JssorPlayer$.$FetchPlayers(document.body);
-        });*/
+            $JssorPlayer$.$FetchPlayers(document.body);*/
+        });
       });
     }])
     .directive('onFinishRender', function ($timeout) {
