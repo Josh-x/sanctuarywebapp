@@ -11,7 +11,7 @@ SanctuaryControllers
           $scope.resultLinks[i-1] = $sce.trustAsResourceUrl($scope.results[i].id.$t.replace("http://gdata.youtube.com/feeds/videos", "http://www.youtube.com/embed"));
         }
         $scope.$on('test', function(ngRepeatFinishedEvent) {
-            var options = {
+            /*var options = {
                 $AutoPlay: true,                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
                 $DragOrientation: 3,                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
                 $AutoPlayInterval: 4000,            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
@@ -47,7 +47,7 @@ SanctuaryControllers
             //responsive code end
             //fetch and initialize youtube players
             $JssorPlayer$.$FetchPlayers(document.body);
-        });
+        });*/
       });
     }])
     .directive('onFinishRender', function ($timeout) {
