@@ -1,4 +1,6 @@
-var SanctuaryControllers = angular.module('SanctuaryControllers', []);
+var SanctuaryControllers = angular.module('SanctuaryControllers', [
+  'dang-jssor'
+]);
 
 SanctuaryControllers
   .controller('YoutubeListController',
